@@ -1,24 +1,14 @@
-# README
+説明
+楽天レシピカテゴリ別ランキングAPIを使ったLINEbotです。
+「今日の料理は？」とチャットを送ると、総合ランキング４位までの料理レシピのURLが送られてきます。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+作った目的
+今日の料理は何を作ろうかなと思ったときに気軽にLINEで聞けるアプリが欲しかったためです。
 
-Things you may want to cover:
+今回カルーセルで返信がくるようにしようと思ったが、うまくいかなかったので
+今後は追加したい。
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+使用技術
+・Ruby 2.6.6
+・Ruby on Rails 6.1.3.1
+・楽天レシピカテゴリ別ランキングAPI
